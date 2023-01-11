@@ -5,7 +5,7 @@
     max-width: 500px;
     position: relative;
     margin: 32px 0;
-    background-color: #242424;
+    background-color: #fff;
     
 }
 .text-field *{
@@ -60,8 +60,8 @@
     top:0;
 }
 .text-field.two{
-    border-bottom: 1px solid beige;
-    background-color: #3a3a3a;
+    border-bottom: 1px solid rgb(95, 82, 82);
+    background-color: #fff;
 }
 .text-field.two input{
     padding-bottom: 0;
@@ -71,12 +71,13 @@
     top: 14px;
 }
 .text-field.three {
-    border-bottom: 1px solid beige;
+    border-bottom: 1px solid rgb(95, 82, 82);
 }
 .text-field.three input{
     padding-bottom: 0;
     padding-top: 22px;
+    
 }
 .text-field.three input:focus ~label, .two.not-empty label{
-    top: 10px;
+    top: 20px;
 }
