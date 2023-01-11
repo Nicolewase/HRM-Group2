@@ -3,7 +3,7 @@ import { Textfield } from "../Inputs";
 
 
 
-const components =() =>{
+const Components =() =>{
   let email ="";
   let password ="";
 const onEmailChange: ChangeEventHandler<HTMLInputElement> = (V) =>{
@@ -25,11 +25,14 @@ return (
 
 
 <form action="" onSubmit={loginAction}>
-  <Textfield onChange={onEmailChange} name= "Email" type="email" variant="one"label="Email"errorText="Invalid email"helperText="Email must contain @ sign"/>
-  <Textfield onChange={onPasswordChange} name="number" type="password" variant="two" label="Password" helperText="Only numbers"/>
-  <Textfield name="Names" type="text" variant="three" label="Fullnames" helperText="Fill your Names"/>
+<Textfield name="Names" type="text" variant="three" label="First name" helperText=""/>
+  <Textfield name="Names" type="text" variant="three" label="Last name" helperText=""/>
+  <Textfield name="Names" type="text" variant="three" label=" Email" helperText=""/>
+  <Textfield name="Dept" type="text" variant="three" label=" Department" helperText=""/>
+  <Textfield onChange={onPasswordChange} name="number" type="password" variant="three" label="Password" helperText=""/>
+  <Textfield onChange={onPasswordChange} name="number" type="password" variant="three" label="Confirm Password" helperText=""/>
 </form>
 </div>
 )
 }
-export default components;
+export default Components;
