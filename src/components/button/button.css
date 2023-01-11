@@ -3,7 +3,7 @@
     border: none;
     text-align: center;
     margin: 10px;
-    border-radius: 45px;
+    border-radius: var(--border-radius);
     display: inline;
     display: flex;
     align-items: center;
@@ -15,29 +15,31 @@
 .filled, .Tonal{
     border: none;
     padding: 7px 15px;
-    border-radius: 25px;
+    border-radius: var(--border-radius);
     font-size: 12px;
         
 }
 .Text, .elevated, .Outlined{
-   color: #226305;
+   color: var(--accent-color);
    background-color: #f3f6ea;
    padding: 5px 20px;
    border: 1.5px solid gray;
-   font-size: 12px;
+   font-size: 1rem;
    
 
 }
 .elevated{
-    background-color: white;
-    
-       
-    }
+    background-color: var(--accent-color);
+    color: var(--primary-color);
+    box-shadow: var(--shadow);  
+    border: none; 
+
+}
 
 
 .filled{
-    background-color:#205707;
-    color: white;
+    background-color: var(--accent-color);
+    color: var(--primary-color);
     
 }
 .filled:hover{
