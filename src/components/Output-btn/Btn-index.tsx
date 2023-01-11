@@ -1,6 +1,6 @@
 
 import Button from '../button/button'
-import { AddIcon } from '../../assets/icons'
+import { AddIcon } from '../../assets/icon-img/icons'
 
 
 function Buttons() {
