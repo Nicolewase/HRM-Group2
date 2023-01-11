@@ -1,0 +1,82 @@
+.text-field{
+    height: 56px;
+    min-width: 260px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    margin: 32px 0;
+    background-color: #242424;
+    
+}
+.text-field *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: small;
+}
+
+.text-field  input{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    padding: 10px;
+    background-color: inherit;
+    border: none;
+    outline: none;
+    
+}
+.text-field input:valid ~ span.error-text{
+    display: none;
+}
+.text-field input:not(:valid) ~ span.helper-text{
+    display: none;
+}
+.text-field input:not(:valid) ~ span.error-text{
+    color: red;
+}
+.text-field label{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    transform: translateY(-50%);
+    background-color: inherit;
+    transition: all 0.1s cubic-bezier(0, 0, 0.3, 1);
+    
+}
+.text-field span{
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    font-size: 11px;
+}
+.text-field.one input{
+    border: 1px solid beige;
+    border-radius: 6px;
+}
+.text-field.one label{
+    padding: 10px;
+}
+.text-field.one input:focus ~label, .one.not-empty label{
+    top:0;
+}
+.text-field.two{
+    border-bottom: 1px solid beige;
+    background-color: #3a3a3a;
+}
+.text-field.two input{
+    padding-bottom: 0;
+    padding-top: 22px;
+}
+.text-field.two input:focus ~label, .two.not-empty label{
+    top: 14px;
+}
+.text-field.three {
+    border-bottom: 1px solid beige;
+}
+.text-field.three input{
+    padding-bottom: 0;
+    padding-top: 22px;
+}
+.text-field.three input:focus ~label, .two.not-empty label{
+    top: 10px;
+}

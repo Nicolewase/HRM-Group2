@@ -1,0 +1,84 @@
+
+.btn{
+    border: none;
+    text-align: center;
+    margin: 10px;
+    border-radius: 45px;
+    display: inline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    }
+    
+    
+.filled, .Tonal{
+    border: none;
+    padding: 7px 15px;
+    border-radius: 25px;
+    font-size: 12px;
+        
+}
+.Text, .elevated, .Outlined{
+   color: #226305;
+   background-color: #f3f6ea;
+   padding: 5px 20px;
+   border: 1.5px solid gray;
+   font-size: 12px;
+   
+
+}
+.elevated{
+    background-color: white;
+    
+       
+    }
+
+
+.filled{
+    background-color:#205707;
+    color: white;
+    
+}
+.filled:hover{
+    background: rgb(166, 180, 166);
+}
+
+
+.Tonal{
+    color: black;
+    background: rgb(223, 226, 223);
+    border: none;
+}
+    
+.Tonal:hover{
+    background:white;
+
+   } 
+   .Outlined:hover{
+    background:black;
+
+   } 
+   .Text:hover{
+    background:black;
+
+   } 
+   .elevated:hover{
+    background:black;
+
+   } 
+
+.Outlined{
+   
+    background: white;
+    
+    
+    
+}
+.Text{
+    
+    background: transparent;
+    border:none;
+    
+
+} 
