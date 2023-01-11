@@ -1,0 +1,1 @@
+export const AddIcon = () => <svg  height="24" width="24"><path d="M11.65 18.35v-6h-6v-.7h6v-6h.7v6h6v.7h-6v6Z"/></svg>
