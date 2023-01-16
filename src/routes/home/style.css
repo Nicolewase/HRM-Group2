@@ -4,13 +4,16 @@
     box-sizing: border-box;
 }
 
+html,
+body,
+#root,
 .home {
     position: relative;
     width: 100%;
     height: 100%;
     background: url("/image1.jpg");
     background-size: cover;
-    background-position: center; 
+    background-position: center;
 
 
 }
@@ -23,40 +26,6 @@
     background-color: #3C2C9A80;
 }
 
-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 40px;
-    gap: 20.19px;
-    position: relative;
-    height: 100px;
-
-}
-
-.links {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0 200px;
-    gap: 41px;
-}
-
-.link {
-    width: 50px;
-    height: 16px;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 22px;
-    text-align: center;
-    color: #FFFFFF;
-    text-decoration: none;
-
-}
 
 h2 {
     position: relative;
@@ -77,12 +46,12 @@ h2 {
     Font-family: 'Manrope';
     Font-style: Bold;
     Font-size: 16px;
-    background-color:var( --primary-color);
+    background-color: var(--primary-color);
     border-radius: 80px;
     padding: 8px 20px;
     top: 180px;
     margin-left: 60px;
-    
+
 }
 
 @media (max-width: 500px) {
