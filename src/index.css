@@ -1,16 +1,16 @@
-:root{
-  --accent-color: #0887FC;
-  --primary-color: #fff;
-  --secondary-color: #000;
-  --shadow: 0px 4px 8px rgb(8 135 252);
-
-  /** dimension */
-  --font-size: 16px;
-  --border-radius: 0;
-
-  
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+:root {
+    --accent-color: #3C2C9A;
+    --primary-color: #fff;
+    --secondary-color: #000;
+    --shadow: 0px 4px 8px rgb(8 135 252);
+    /** dimension */
+    --font-size: 16px;
+    --border-radius: 100px;
 }
-html, body{
-  font-size: var(--font-size);
-  background-color: var(--primary-color);
+
+html,
+body {
+    font-size: var(--font-size);
+    background-color: var(--primary-color);
 }
