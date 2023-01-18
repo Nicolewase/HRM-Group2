@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from "react"
-import "./Darkk-mode.css"
+import "./Dark-mode.css"
 
 // type ThemeType = 'dark' | 'light' | 'system';
 
