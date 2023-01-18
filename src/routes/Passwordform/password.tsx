@@ -30,7 +30,7 @@ return <div className="pwsd-page">
   <div className="pswd-form">
 <form action="" className="pswd-form1" onSubmit={loginAction} >
 
-  <h1>PASSWORD</h1>
+  <h1>RESET-PASSWORD</h1>
   <div className="inptall">
   <Textfield name="Names" type="text" variant="three" label=" Email" helperText=""/>
   <Textfield onChange={onPasswordChange} name="number" type="password" variant="three" label="New Password*" helperText="" /> 

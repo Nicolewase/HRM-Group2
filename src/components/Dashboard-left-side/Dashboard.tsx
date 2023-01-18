@@ -1,0 +1,26 @@
+import { Link } from "react-router-dom"
+import { DarkMode } from "../Dark-mode/Dark-mode"
+import "./Dashboard.css"
+export const RightSideDashboard =() => {
+    return <div className="dashboard-comp">
+        <header className="header-Dash">
+        <h1>HRMS</h1>
+        </header>
+
+        <div className="dashboard-links">
+            <Link className="D-link" to="Dashboard" >Dashboard</Link>
+            <Link className="D-link" to="Employee" >Employee</Link>
+            <Link className="D-link" to="Department" >Department</Link>
+            <Link className="D-link" to="Projects" >Projects</Link>
+            <Link className="D-link" to="Messages" >Messages</Link>
+            <Link className="D-link" to="Jobs" >Jobs</Link>
+            <Link className="D-link" to="Schedule" >Schedule</Link>
+            <Link className="D-link" to="Report" >Report</Link>
+            <Link className="D-link" id="Dsign" to="Sign out" >Sign out</Link>
+            <p>Dark mode</p>
+            <DarkMode/>
+        </div>
+        
+        
+    </div>
+}

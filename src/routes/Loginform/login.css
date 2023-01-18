@@ -6,7 +6,7 @@
 
 html,
 body,
-#root {
+#root,.login-page {
     /* position: relative; */
     width: 100%;
     height: 100%;
@@ -46,10 +46,10 @@ body,
     justify-items: center;
     position: relative;
     /* padding: 0px 40px; */
-    width: 335px;
-    top: 40px;
-    right: 70px;
-    height: 400px;
+    width: 390px;
+    top: 30px;
+    right: 170px;
+    height: 420px;
     background-color: var(--primary-color);
     border-radius: 30.9707px;
     /* align-items: center; */
@@ -57,22 +57,17 @@ body,
 }
 
 
-
-
-
-
-
-h1 {
+.form h1 {
 
     position: relative;
-    top: 40px;
-    left: 40px;
+    top: 30px;
+    left: 50px;
     height: 20px;
     padding: 10px;
     font-family: 'Manrope';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 23px;
     text-transform: uppercase;
     color: #3C2C9A;
 
@@ -86,8 +81,8 @@ h1 {
     width: 100px;
     /* max-width: 500px; */
     position: relative;
-    top: 60px;
-    left: 40px;
+    top: 80px;
+    left: 60px;
     color: #3C2C9A;
 
 
@@ -100,12 +95,13 @@ h3 {
 
     position: relative;
     height: 20px;
-    left: 70px;
-    top: 160px;
+    width: 300px;
+    left: 100px;
+    top: 150px;
     font-family: 'Manrope';
     font-style: normal;
-    /* font-weight: 400; */
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 12px;
     color: #000000;
 }
 
@@ -117,8 +113,8 @@ h3 .pswd-link {
 .Outlined {
 
     position: relative;
-    padding: 10px 90px;
-    left: 50px;
+    padding: 10px 100px;
+    left: 60px;
     top: 160px;
     align-items: center;
     background: #3C2C9A;
@@ -128,24 +124,30 @@ h3 .pswd-link {
     color: var(--primary-color);
 }
 
+.Outlined:hover {
+    background-color:var(--primary-color);
+    border: 2px solid  #3C2C9A;
+    color:  #3C2C9A;
+}
+
 .line-img {
     position: relative;
-    width: 290px;
+    width: 320px;
     height: 0px;
-    left: 20px;
-    top: 150px;
+    left: 40px;
+    top: 160px;
     border: 1px solid rgba(60, 44, 154, 0.2);
 
 }
 
 p {
     position: relative;
-    left: 50px;
-    top: 160px;
+    left: 60px;
+    top: 180px;
     font-family: 'Manrope';
     font-style: normal;
     /* font-weight: 400; */
-    font-size: 14px;
+    font-size: 13px;
     color: #000000;
     /* border-top: 1px solid rgba(60, 44, 154, 0.2); */
 

@@ -38,7 +38,7 @@ export const Login = () => {
     <Button type="submit" variant='Outlined' onclick={OutlinedButtonIsClicked}  >Log in</Button>
 
     <img src={vector1} alt=""  className="line-img"/>
-   <p>if you don't have an account <a href="">Create an Account</a></p>  
+   <p>if you don't have an account <Link to="/Register" >Create an Account</Link> </p>  
   </form>
   </div>
   </div>

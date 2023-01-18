@@ -53,7 +53,11 @@ h2 {
     margin-left: 60px;
 
 }
-
+.learn:hover {
+    background-color: #3C2C9A;
+    border: 1px solid var(--primary-color);
+    color: white;
+}
 @media (max-width: 500px) {
     header {
         /* padding: 0 8px; */
