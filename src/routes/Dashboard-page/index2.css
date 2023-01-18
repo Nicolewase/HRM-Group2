@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root,
+.Dashboard-page {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.Dashboard-page {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+
+
+
+
+}
+
+.Dashboard-form {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--accent-color);
+    /* gap: 10px; */
+    margin-bottom: 20px;
+
+}
+
+.Dashboard-left {
+    width: 200px;
+}
+.Dashboard-right{
+    width: calc(100% - 200px);
+}
+.D-header {
+position: relative;
+display: flex;
+justify-content: center;
+top: 0;
+height: 68px;
+background-color: var(--primary-color);
+}
+
+.total{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 20px;
+    left: 40px;
+    /* justify-content: center; */
+    gap: 20px;
+}
+
+.box1{
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background-color: var(--primary-color);
+}
+.box1 p{
+    position: relative;
+    height: 25px;
+    width: 150px;
+    top: 8px;
+    left: 40px;
+    color:var(--secondary-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.box1 h1{
+    position: relative;
+    top: 5px;
+    left: 55px;
+    color:var(--accent-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: 40px;
+    height: 26px;
+}
+
+.box6{
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background-color: var(--primary-color);
+}
+.box6 p{
+    position: relative;
+    height: 25px;
+    width: 150px;
+    top: 8px;
+    left: 40px;
+    color:var(--secondary-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.box6 h1{
+    position: relative;
+    top: 5px;
+    left: 55px;
+    color:var(--accent-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: 40px;
+    height: 26px;
+}
+
+
+.j-employees{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 40px;
+    left: 40px;
+    /* justify-content: center; */
+    gap: 20px;
+}
+
+.box2{
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background-color: var(--primary-color);
+}
+.box2 p{
+    position: relative;
+    height: 25px;
+    width: 150px;
+    top: 8px;
+    left: 40px;
+    color:var(--secondary-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.box2 h1{
+    position: relative;
+    top: 5px;
+    left: 55px;
+    color:var(--accent-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: 40px;
+    height: 26px;
+}
+
+.box7{
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background-color: var(--primary-color);
+}
+.box7 p{
+    position: relative;
+    height: 25px;
+    width: 150px;
+    top: 8px;
+    left: 40px;
+    color:var(--secondary-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.box7 h1{
+    position: relative;
+    top: 5px;
+    left: 55px;
+    color:var(--accent-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: 40px;
+    height: 26px;
+}
+
+
+.project-status{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 80px;
+    left: 40px;
+    /* justify-content: center; */
+    gap: 20px;
+}
+
+.box3{
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background-color: var(--primary-color);
+}
+.box3 p{
+    position: relative;
+    height: 25px;
+    width: 150px;
+    top: 8px;
+    left: 40px;
+    color:var(--secondary-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.box3 h1{
+    position: relative;
+    top: 5px;
+    left: 55px;
+    color:var(--accent-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: 40px;
+    height: 26px;
+}
+
+.box8{
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background-color: var(--primary-color);
+}
+.box8 p{
+    position: relative;
+    height: 25px;
+    width: 150px;
+    top: 8px;
+    left: 40px;
+    color:var(--secondary-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.box8 h1{
+    position: relative;
+    top: 5px;
+    left: 55px;
+    color:var(--accent-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: 40px;
+    height: 26px;
+}
+
+.R-employees{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 60px;
+    left: 40px;
+    /* justify-content: center; */
+    gap: 20px;
+}
+
+.box4{
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background-color: var(--primary-color);
+}
+.box4 p{
+    position: relative;
+    height: 25px;
+    width: 150px;
+    top: 8px;
+    left: 40px;
+    color:var(--secondary-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.box4 h1{
+    position: relative;
+    top: 5px;
+    left: 55px;
+    color:var(--accent-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: 40px;
+    height: 26px;
+}
+
+.box9{
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background-color: var(--primary-color);
+}
+.box9 p{
+    position: relative;
+    height: 25px;
+    width: 150px;
+    top: 8px;
+    left: 40px;
+    color:var(--secondary-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.box9 h1{
+    position: relative;
+    top: 5px;
+    left: 55px;
+    color:var(--accent-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: 40px;
+    height: 26px;
+}
+
+
+.total-p{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    top: 100px;
+    left: 40px;
+    /* justify-content: center; */
+    /* gap: 20px; */
+
+}
+
+.box5{
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background-color: var(--primary-color);
+}
+.box5 p{
+    position: relative;
+    height: 25px;
+    width: 150px;
+    top: 8px;
+    left: 40px;
+    color:var(--secondary-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+
+.box5 h1{
+    position: relative;
+    top: 5px;
+    left: 55px;
+    color:var(--accent-color) ;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    width: 40px;
+    height: 26px;
+}

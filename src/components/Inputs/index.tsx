@@ -21,7 +21,7 @@ export const Textfield =({
 }:Props) =>{
     const [inputValue, setInputValue] = useState("");
     const inputId= name;
-    const emptyInput = inputValue !=="" ? "not empty": "";
+    const emptyInput = inputValue !=="" ? "not-empty": "";
 
     return  <div className={`text-field ${variant} ${emptyInput}`} >
 

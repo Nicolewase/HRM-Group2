@@ -4,11 +4,12 @@ import { Textfield } from "../../components/Inputs"
 import { ChangeEventHandler, useState } from "react";
 import vector1 from "../../assets/icon-img/Vector1.png"
 import "./password.css";
+import { Header } from "../../components/header";
 
 
 export const Password = () => {
 
-  const OutlinedButtonIsClicked = () => {
+  const FilledButtonIsClicked = () => {
     console.log("outlined")
   }
   const loginAction = (evt: any) => {
@@ -24,24 +25,26 @@ export const Password = () => {
 }
 
 
-return <form action="" onSubmit={loginAction} >
+return <div className="pwsd-page">
+  <Header/>
+  <div className="pswd-form">
+<form action="" className="pswd-form1" onSubmit={loginAction} >
 
-  <h1>PASSWORD</h1>
+  <h1>RESET-PASSWORD</h1>
   <div className="inptall">
-  <div ><Textfield name="Names" type="text" variant="three" label=" Email" helperText=""/></div>
-  <div ><Textfield onChange={onPasswordChange} name="number" type="password" variant="three" label="New Password*" helperText="" /></div> 
-
-  <div ><Textfield onChange={onPasswordChange} name="number" type="password" variant="three" label="Confirm Password*" helperText=""/></div> 
+  <Textfield name="Names" type="text" variant="three" label=" Email" helperText=""/>
+  <Textfield onChange={onPasswordChange} name="number" type="password" variant="three" label="New Password*" helperText="" /> 
+  <Textfield onChange={onPasswordChange} name="number" type="password" variant="three" label="Confirm Password*" helperText=""/>
   </div>
 
-  <Button type="submit" variant='Outlined' onclick={OutlinedButtonIsClicked}  >Submit</Button>
+  <Button type="submit" variant='filled' onclick={FilledButtonIsClicked}  >Submit</Button>
 
-  <img src={vector1} alt=""  className="line-img"/>
+  <img src={vector1} alt=""  className="line1-img"/>
   
 
 </form>
-
-
+</div>
+</div>
 
 
 

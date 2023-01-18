@@ -1,10 +1,13 @@
 .text-field{
-    height: 56px;
+    height: 40px;
     min-width: 260px;
-    width: 100%;
+    width: 70%;
     max-width: 500px;
     position: relative;
-    margin: 32px 0;
+    /* display: flex; */
+    /* /* flex-direction: ; */
+    /* gap: 20px;  */
+    margin: 2px 0;
     background-color: #fff;
     
 }
@@ -36,7 +39,7 @@
 }
 .text-field label{
     position: absolute;
-    top: 30px;
+    top: 20px;
     left: 10px;
     transform: translateY(-50%);
     background-color: inherit;
@@ -71,13 +74,14 @@
     top: 14px;
 }
 .text-field.three {
-    border-bottom: 1px solid rgb(95, 82, 82);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
 }
 .text-field.three input{
     padding-bottom: 0;
     padding-top: 22px;
     
 }
-.text-field.three input:focus ~label, .two.not-empty label{
+.text-field.three input:focus ~label, .three.not-empty label{
     top: 20px;
+    
 }
