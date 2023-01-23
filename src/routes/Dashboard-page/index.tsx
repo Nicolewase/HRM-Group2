@@ -1,4 +1,6 @@
+import DashCalendar from "../../components/calendar/calendar"
 import { RightSideDashboard } from "../../components/Dashboard-left-side/Dashboard"
+import Messages from "../../components/Messages/Messages"
 import "./index2.css"
 const Dashboard = () => {
 
@@ -65,8 +67,10 @@ const Dashboard = () => {
             <p>Total projects</p>
            </div>
            </div>
-
            
+           <DashCalendar/>
+           {/* <Messages/> */}
+
         </div>
         </form>
     </div>

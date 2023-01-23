@@ -1,0 +1,214 @@
+.Message-form {
+    position: relative;
+    left: 700px;
+    top: 50px;
+    width: 400px;
+    height: 480px;
+    background-color: white;
+
+}
+
+.Nofication-messages {
+    position: relative;
+    height: 80px;
+    width: 100%;
+    background: #3C2C9A;
+    color: #FFFFFF;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.Menu-icon {
+    position: relative;
+    background-color: #F84135;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+
+}
+
+.Menu-icon .menu-img {
+    position: relative;
+    top: 10px;
+    right: -10px;
+}
+
+.second-title {
+    height: 50px;
+    width: 100%;
+    background: #EDF2F2;
+}
+
+.second-title p {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    color: #000000;
+    position: relative;
+    top: 10px;
+    height: 30px;
+    left: -20px;
+
+
+}
+
+#General {
+    border-bottom: 2px solid #104A51;
+    width: 80px;
+    text-align: center;
+}
+
+#number {
+    position: relative;
+    width: 24px;
+    height: 20px;
+    left: -80px;
+    top: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #F83535;
+    border-radius: 2px;
+
+}
+
+.chat-message {
+    box-sizing: border-box;
+    position: relative;
+    top: 10px;
+    height: 65px;
+    width: 100%;
+}
+.chat-message:hover {
+    background-color: #104A51;;
+    border: 2px solid  #142356;
+}
+.profile1 {
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+.chat-message p {
+    position: relative;
+    top: -58px;
+    left: 75px;
+    Font-family: Outfit;
+    Font-style: Bold;
+    Font-size: 16px;
+    Vertical-align: Top;
+    Fill: Solid #000000
+}
+#chat-nbr{
+    border-radius: 60px;
+    background-color: #983232;
+    width: 20px;
+    height: 20px;
+    color:  #FFFFFF;
+    position: relative;
+    left: 50px;
+    top: -35px;
+    text-align: center;
+    font-size: 14px;
+}
+#paragraph1{
+    position: relative;
+    top: -55px;
+    font-size: 11px;
+}
+#time{
+    position: relative;
+    top: -85px;
+    left: 340px;
+    font-size: 11px;
+    color:#B4B9C1;
+}
+
+.chat-message1 {
+    box-sizing: border-box;
+    position: relative;
+    top: 10px;
+    height: 65px;
+    width: 100%;
+}
+.chat-message1:hover {
+    background-color: #104A51;;
+    border: 2px solid  #142356;
+}
+.chat-message1 p {
+    position: relative;
+    top: -58px;
+    left: 75px;
+    Font-family: Outfit;
+    Font-style: Bold;
+    Font-size: 16px;
+    Vertical-align: Top;
+    Fill: Solid #000000
+}
+
+.chat-message2 {
+    box-sizing: border-box;
+    position: relative;
+    top: 10px;
+    height: 65px;
+    width: 100%;  
+}
+.chat-message2:hover {
+    background-color: #104A51;;
+    border: 2px solid  #142356;
+}
+.chat-message2 p {
+    position: relative;
+    top: -58px;
+    left: 75px;
+    Font-family: Outfit;
+    Font-style: Bold;
+    Font-size: 16px;
+    Vertical-align: Top;
+    Fill: Solid #000000
+}
+
+.chat-message3 {
+    box-sizing: border-box;
+    position: relative;
+    top: 10px;
+    height: 65px;
+    width: 100%;
+}
+.chat-message3:hover {
+    background-color: #104A51;;
+    border: 2px solid  #142356;
+}
+.chat-message3 p {
+    position: relative;
+    top: -58px;
+    left: 75px;
+    Font-family: Outfit;
+    Font-style: Bold;
+    Font-size: 16px;
+    Vertical-align: Top;
+    Fill: Solid #000000
+}
+
+.chat-message4 {
+    box-sizing: border-box;
+    position: relative;
+    top: 10px;
+    height: 65px;
+    width: 100%;
+}
+.chat-message4:hover {
+    background-color: #104A51;;
+    border: 2px solid  #142356;
+}
+.chat-message4 p {
+    position: relative;
+    top: -58px;
+    left: 75px;
+    Font-family: Outfit;
+    Font-style: Bold;
+    Font-size: 16px;
+    Vertical-align: Top;
+    Fill: Solid #000000
+}
