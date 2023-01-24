@@ -5,11 +5,11 @@ const AddEmployees=()=>{
     return(
         <div className="emplo">
             <form action=" " className="formm">
-            <p>Add Employees</p>
+            <h1>Add Employees</h1>
 
                 <div className="m-field">
-            <Textfield name="Names" type="number" className="id" variant="three" label="Employees ID" helperText=""/>
-            <Textfield name="Names" type="text" className="id" variant="three" label="Department" helperText=""/>
+            <Textfield name="Names" type="number"  variant="three" label="Employees ID" helperText=""/>
+            <Textfield name="Names" type="text" variant="three" label="Department" helperText=""/>
             </div>
             <div className="m-field">
             
@@ -32,22 +32,13 @@ const AddEmployees=()=>{
             </div>
             <div className="m-field">
             <Textfield name="Names" type="date" variant="three" label="Date of birth" helperText=""/>
-            <button className="btn no-border-radius">Submit</button>
+            <button className="bton no-border-radius">Submit</button>
             <div className="radio">
         <input type="radio" value="Male" name="gender" /> Male
         <input type="radio" value="Female" name="gender" /> Female
        
       </div>
-            
-           
-        
             </div>
-            
-
-            
-
-            
-
 
             </form>
         </div>
