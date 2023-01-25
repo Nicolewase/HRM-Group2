@@ -34,20 +34,23 @@
     /* padding-bottom: -20px; */
     border: 1px solid #a8a6b1;
     padding-left: 80px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-right: 200px;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     /* border-radius: 20px; */
     /* height: 20%; */
 }
-.formm p{
-    color:#3C2C9A;
-    margin-right: 85%;
-    font-size: 21px;
+.formm h1{
+    font-size: 16px;
+    color: #3C2C9A;
     padding-bottom: 50px;
+    
+
+    
 }
-.btn{
+.bton{ 
     padding: 10px 85px 10px 85px;
     background-color: #3C2C9A;
     color: white;
