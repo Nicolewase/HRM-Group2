@@ -1,9 +1,15 @@
+import { RightSideDashboard } from "../../components/Dashboard-left-side/Dashboard";
 import { Textfield } from "../../components/Inputs";
 import "./employee.css";
 
 const AddEmployees=()=>{
     return(
         <div className="emplo">
+            <div className="dash-Left">
+            <RightSideDashboard/>
+            </div>
+
+            <div className="dash-Right">
             <form action=" " className="formm">
             <h1>Add Employees</h1>
 
@@ -42,6 +48,7 @@ const AddEmployees=()=>{
             
 
             </form>
+            </div>
         </div>
 
     )
