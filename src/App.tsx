@@ -15,6 +15,7 @@ import Dashboard from './routes/Dashboard-page';
 import DashCalendar from './components/calendar/calendar';
 import Messages from './components/Messages/Messages';
 import Schedule from './routes/Schedule-page/Schedule';
+import EmployeeDashboard from './components/employee-dash/employee';
 
 
 
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
   {
     path:"/schedule",
     element:<Schedule/>
+  },
+  {
+    path:"/employee-dash",
+    element:<EmployeeDashboard/>
   }
 
 ]);

@@ -10,6 +10,7 @@ body,
 .emplo {
     width: 100%;
     height: 100%;
+    background: #D9D9D9;
 }
 
 .emplo {
@@ -21,43 +22,45 @@ body,
 }
 
 .formm {
-    background-color: white;
-    border: 1px solid #a8a6b1;
     position: relative;
     top: 30px;
-    left: 150px;
-    width: 900px;
-    height: 500px;
+    background-color: white;
+    border: 1px solid #a8a6b1;
+    width: 850px;
+    height: 530px;
+    left: 200px;
+    
 }
 
-.formm p {
+.formm h1 {
     position: relative;
-    width: 270px;
-    height: 35px;
-    left: 300px;
     top: 20px;
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 30px;
+    font-size: 20px;
     color: #3C2C9A;
+    left: 50px;
+
 }
 
 .m-field {
     position: relative;
-    top: 40px;
+    top: 120px;
     left: 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 80px;
+    gap: 180px;
     width: 600px;
     height: 50px;
-    color: gray;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
 }
+
 .m-field1 {
     position: relative;
-    top: 40px;
+    top: 120px;
     left: 50px;
     display: flex;
     flex-direction: row;
@@ -68,32 +71,28 @@ body,
     color: gray;
 }
 
-
-
-
-
 .btn-no-border-radius {
     --border-radius: 0px;
 
 }
 
-
-/* 
-.btn {
-    padding: 10px 85px 10px 85px;
+.bton {
+    position: relative;
+    left: 330px;
+    top: 100px;
+    padding: 8px  75px;
     background-color: #3C2C9A;
     color: white;
-    margin-left: -35%;
-    margin-top: 50px;
     border: none;
     border-radius: none;
-} */
+}
 
 .radio {
+    position: relative;
+    left: 550px;
     display: flex;
-    gap: 12px;
-    margin-left: -35%;
-
+    gap: 8px;
+    top: 65px;
 }
 
 .radio input {
