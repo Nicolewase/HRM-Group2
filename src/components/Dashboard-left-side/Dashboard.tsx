@@ -13,10 +13,9 @@ export const RightSideDashboard =() => {
             <Link className="D-link" to="/Department" >Department</Link>
             <Link className="D-link" to="/Project" >Projects</Link>
             <Link className="D-link" to="/Messages" >Messages</Link>
-            <Link className="D-link" to="/Jobs" >Jobs</Link>
             <Link className="D-link" to="/Schedule" >Schedule</Link>
             <Link className="D-link" to="/Report" >Report</Link>
-            <Link className="D-link" id="Dsign" to="Sign out" >Sign out</Link>
+            <Link className="D-link" id="Dsign" to="/home" >Sign out</Link>
             <p>Dark mode</p>
             <DarkMode/>
         </div>

@@ -25,12 +25,12 @@ return (
 
 
 <form action="" onSubmit={loginAction}>
-<Textfield name="Names" type="text" variant="three" label="First name" helperText=""/>
-  <Textfield name="Names" type="text" variant="three" label="Last name" helperText=""/>
-  <Textfield name="Names" type="text" variant="three" label=" Email" helperText=""/>
-  <Textfield name="Dept" type="text" variant="three" label=" Department" helperText=""/>
-  <Textfield onChange={onPasswordChange} name="number" type="password" variant="three" label="Password" helperText=""/>
-  <Textfield onChange={onPasswordChange} name="number" type="password" variant="three" label="Confirm Password" helperText=""/>
+<Textfield name="Names" type="text" variant="two" label="First name" helperText=""/>
+  <Textfield name="Names" type="text" variant="two" label="Last name" helperText=""/>
+  <Textfield name="Names" type="text" variant="two" label=" Email" helperText=""/>
+  <Textfield name="Dept" type="text" variant="two" label=" Department" helperText=""/>
+  <Textfield onChange={onPasswordChange} name="number" type="password" variant="two" label="Password" helperText=""/>
+  <Textfield onChange={onPasswordChange} name="number" type="password" variant="two" label="Confirm Password" helperText=""/>
 </form>
 </div>
 )

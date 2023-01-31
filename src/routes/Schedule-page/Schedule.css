@@ -56,16 +56,16 @@ body,
 
 .schedule-innerform {
     position: relative;
-    display: flex;
-    flex-direction: row;
-    left: 20px;
     top: 10px;
-    width: 980px;
-    height: 510px;
-    background: #FFFFFF;
+    /* background: #FFFFFF; */
 
 }
-
+.scheduleimg{
+    position: relative;
+    left: 50px;
+    height: 530px;
+}
+/* 
 .left-schdl {
     background: #18181B;
     width: 250px;
@@ -150,7 +150,7 @@ body,
     top: -45px;
     width: 12px;
     height: 12px;
-    /* text-align: center; */
+    text-align: center;
     border-radius: 30px;
     font-size: 14px;
     background: #A1A1AA;
@@ -240,4 +240,4 @@ body,
     color: #3B82F6;
     Vertical-align: Top;
     Fill: Solid #000000
-}
+} */

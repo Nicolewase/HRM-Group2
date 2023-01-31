@@ -39,7 +39,7 @@
 }
 .text-field label{
     position: absolute;
-    top: 20px;
+    top: 50%;
     left: 10px;
     transform: translateY(-50%);
     background-color: inherit;
@@ -71,7 +71,7 @@
     padding-top: 22px;
 }
 .text-field.two input:focus ~label, .two.not-empty label{
-    top: 14px;
+    top: 10px;
 }
 .text-field.three {
     border-bottom: 1px solid rgba(0, 0, 0, 0.3);

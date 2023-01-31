@@ -93,8 +93,9 @@ body,
 
     position: relative;
     padding: 15px 80px;
+    text-decoration: none;
     left: 100px;
-    top: 100px;
+    top: 120px;
     align-items: center;
     background: #3C2C9A;
     border-radius: 50px;
@@ -108,7 +109,7 @@ body,
 }
 .c-register .checkbox {
     position: relative;
-    top: 100px;
+    top: 140px;
     gap: 5px;
     left: 80px;
     display: flex;

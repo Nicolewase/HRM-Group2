@@ -6,10 +6,17 @@ import profile3 from "../../assets/profile-img/profile3.png"
 import profile4 from "../../assets/profile-img/profile4.png"
 import profile5 from "../../assets/profile-img/profile5.png"
 import "./index.css"
+import { RightSideDashboard } from "../Dashboard-left-side/Dashboard"
 
 
 const Messages = () => {
-    return <form action="" className="Message-form">
+
+    return <div className="message-page">
+        <div className="message-left">
+            <RightSideDashboard/>
+        </div>
+        <div className="message-right">
+        <form action="" className="Message-form">
         <header className="Nofication-messages">
             <img src={shape} alt="" className="shape-img"/>
             <h1>Notification</h1>
@@ -66,6 +73,8 @@ const Messages = () => {
                      <p id="time">15 Hrs ago.</p>
             </div>
     </form>
+    </div>
+    </div>
     
 
 }

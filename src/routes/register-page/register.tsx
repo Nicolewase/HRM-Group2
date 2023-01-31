@@ -17,7 +17,8 @@ import "./register.css"
       <div className="c-register">
         <h1>registration form</h1>
         <div className="R-inpt"><Components/></div>
-        <Button type="submit"  variant='Outlined'onclick={OutlinedButtonIsClicked}>Register</Button>
+        {/* <Button type="submit"  variant='Outlined'onclick={OutlinedButtonIsClicked}>Register</Button> */}
+        <Link to="/Dashboard-page" className="Outlined">Register</Link>
         
         <div className="checkbox">
     <input type="checkbox"  className="check"/>
