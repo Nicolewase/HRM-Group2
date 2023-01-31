@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { RightSideDashboard } from '../Dashboard-left-side/Dashboard'
 import './employee.css'
-import Searchbar from "../../assets/icon-img/Searchbar.svg"
+import Searchbar from "../../assets/icon-img/search.svg"
 import femaleimg from "./images/female-img.png"
 
 export default function EmployeeDashboard() {
@@ -19,9 +19,10 @@ export default function EmployeeDashboard() {
                 <Link to="/employee" className='link-add'>Add Employee</Link>
                 </header>
                 <input type="text" className='position-search' name='position' placeholder='position'/>
-         {/* <img src={Searchbar} alt=""  className='search-bar'/> */}
+         <img src={Searchbar} alt=""  className='search-bar'/>
 
-            
+             {/* <div className='result-space'></div> */}
+
             <div className="employone">
                 <img className='img01' src={femaleimg} alt="" />
                 <h4>Employee Name</h4>
@@ -39,6 +40,7 @@ export default function EmployeeDashboard() {
                 <h4>Employee Name</h4>
                 <h5>position of employee</h5>
             </div>
+           
             
             <div className="employ4">
                 <img className='img01' src={femaleimg} alt="" />

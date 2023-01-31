@@ -32,9 +32,9 @@ return <div className="pwsd-page">
 
   <h1>RESET-PASSWORD</h1>
   <div className="inptall">
-  <Textfield name="Names" type="text" variant="three" label=" Email" helperText=""/>
-  <Textfield onChange={onPasswordChange} name="number" type="password" variant="three" label="New Password*" helperText="" /> 
-  <Textfield onChange={onPasswordChange} name="number" type="password" variant="three" label="Confirm Password*" helperText=""/>
+  <Textfield name="Names" type="text" variant="two" label=" Email" helperText=""/>
+  <Textfield onChange={onPasswordChange} name="number" type="password" variant="two" label="New Password*" helperText="" /> 
+  <Textfield onChange={onPasswordChange} name="number" type="password" variant="two" label="Confirm Password*" helperText=""/>
   </div>
 
   <Button type="submit" variant='filled' onclick={FilledButtonIsClicked}  >Submit</Button>

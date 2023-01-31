@@ -7,7 +7,7 @@ export const SideRegis = () =>{
         <div className="side">
             <div className="logo"><Logo/></div>
             <h1>INFORMATION</h1>
-            <p> Lorem ipsum dolor sit amet, consectetur <br /> adipiscing elit, sed do eiusmod tempor <br /> incididunt ut labore et dolore magna <br /> aliqua. Ut enim ad minim veniam, quis <br /> nostrud</p>
+            <p> Please make sure you provided a valid <br />email address, because your login credentials <br />will be sent to the email. If you fail to provide <br />a valid email, you will not get your credentials.</p>
              <Link to="/Login" className="link">Have an Account</Link> 
 
          
