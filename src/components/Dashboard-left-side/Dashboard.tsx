@@ -10,7 +10,7 @@ export const RightSideDashboard =() => {
         <div className="dashboard-links">
             <Link className="D-link" to="/Dashboard-page" >Dashboard</Link>
             <Link className="D-link" to="/employee-dash" >Employee</Link>
-            <Link className="D-link" to="/Department" >Department</Link>
+            <Link className="D-link" to="/department-page" >Department</Link>
             <Link className="D-link" to="/Project" >Projects</Link>
             <Link className="D-link" to="/Messages" >Messages</Link>
             <Link className="D-link" to="/Schedule" >Schedule</Link>

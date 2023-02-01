@@ -10,12 +10,13 @@ export const VerficationCode = () => {
         <form action="" className="verfication-form">
             <h1>Verfication</h1>
             <div className="spans">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+                <input type="text" className="span-nbr"/>
+                <input type="text" className="span-nbr"/>
+                <input type="text" className="span-nbr"/>
+                <input type="text" className="span-nbr"/>
+                <input type="text" className="span-nbr"/>
+                <input type="text" className="span-nbr"/>
+            
             </div>
             <Button type="submit" variant='filled' onclick={filledButtonIsClicked}  >Submit</Button>
         </form>
