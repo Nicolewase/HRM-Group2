@@ -14,29 +14,30 @@ const AddEmployees=()=>{
             <h1>Add Employees</h1>
 
                 <div className="m-field">
-            <Textfield name="Names" type="number"  variant="two" label="Employees ID" helperText=""/>
-            <Textfield name="Names" type="text" variant="two" label="Department" helperText=""/>
+            <Textfield name="Names" type="number"  variant="two" label="Full name" helperText=""/>
+            <Textfield name="Names" type="text" variant="two" label="Qualification Level" helperText=""/>
             </div>
 
             <div className="m-field">
-            <Textfield name="Names" type="text" variant="two" label="First name" helperText=""/>
-            <Textfield name="Names" type="text" variant="two" label="Last name" helperText=""/>
+            <Textfield name="Names" type="text" variant="two" label="Email" helperText=""/>
+            <Textfield name="Names" type="text" variant="two" label="Country-id" helperText=""/>
             </div>
             <div className="m-field">
-            <Textfield name="Names" type="email" variant="two" label="Email" helperText=""/>
-            <Textfield name="Names" type="text" variant="two" label="Qualification" helperText=""/>
+            <Textfield name="Names" type="email" variant="two" label="Phone number" helperText=""/>
+            <Textfield name="Names" type="text" variant="two" label="User-id" helperText=""/>
+            </div>
+            <div className="m-field">
+            <Textfield name="Names" type="number" variant="two" label="Employment status" helperText=""/>
+            <Textfield name="Names" type="number" variant="two" label="Dep-id" helperText=""/>
             </div>
             <div className="m-field1">
-            <Textfield name="Names" type="text" variant="two" label="Address" helperText=""/>
+            <Textfield name="Names" type="text" variant="two" label="matial status" helperText=""/>
             </div>
 
             <div className="m-field1">
-            <Textfield name="Names" type="text" variant="two" label="City" helperText=""/>
+            <Textfield name="Names"  type="date" variant="two" label="Start Date" helperText=""/>
             </div>
-            <div className="m-field">
-            <Textfield name="Names" type="number" variant="two" label="Joining salary" helperText=""/>
-            <Textfield name="Names" type="number" variant="two" label="Mobile number" helperText=""/>
-            </div>
+
             <div className="m-field1">
             <Textfield name="Names"  type="date" variant="two" label="Date of birth" helperText=""/>
             </div>
