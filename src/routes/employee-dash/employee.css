@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    /* background-color: #D9D9D9; */
+
+}
+
+.containerfordash {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: #FFFFFF;
+}
+
+.leftside {
+    width: 250px;
+    height: 100%;
+}
+
+.rightside {
+    position: relative;
+    width: calc(100% - 250px);
+    height: 100%;
+}
+
+.emp-header {
+    position: relative;
+    top: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.emp-header h1 {
+    position: relative;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 29px;
+}
+.emp-nbr{
+    position: relative;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+
+}
+.emp-nbr #emp-spnbr,#emp-sp{
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+#emp-sp{
+    font-size: 1.7rem;
+    width: 150px;
+}
+.emp-header-link{
+    position: relative;
+    top: -40px;
+    left: 75%;
+    background-color: #3C2C9A;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: none;
+    padding: 12px 15px;
+    border-radius: 8px;
+}
+.emplo-form{
+    position: relative;
+    top: 50px;
+    width: 90%;
+    height: calc(100% - 200px);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.emplo-title{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 20px;
+    gap: 40px;
+    font-size: 0.8rem;
+    height: 40px;
+    width: 95%;
+    color: rgba(0, 0, 0, 0.5);
+    background: rgba(217, 217, 217, 0.7);
+}
+.emplo-title h2{
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.enter-data1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 20px;
+    font-size: 0.8rem;
+    height: 40px;
+    width: 95%;
+    color: rgba(0, 0, 0, 0.5);
+    background: #F7F5F5;
+
+}
+
+.enter-data1 .first-span{
+    position: relative;
+    display: flex;
+    font-size: 1rem;
+    gap: 40px;
+    left: 30px;
+    top: 10px;
+}
+.enter-data1 .first-span :hover{
+    background-color: #3C2C9A;
+    /* background-color: #298EFF; */
+}
+.enter-data1 .edit-img{
+    background: #3ED2C9;
+    padding: 4px;
+}
+.enter-data1 .view-img{
+    background: #298EFF;
+    padding: 6.5px;
+
+}
+.enter-data1 .delete-img{
+    background: #DE1212;
+    padding: 2px;
+}
+
+.enter-data1  .second-span{
+    position: relative;
+    display: flex;
+    gap: 5px;
+    top: 10px;
+    left: 27rem;   
+
+}

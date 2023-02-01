@@ -27,7 +27,7 @@ export const Password = () => {
 
 return <div className="pwsd-page">
   <Header/>
-  <div className="pswd-form">
+  
 <form action="" className="pswd-form1" onSubmit={loginAction} >
 
   <h1>RESET-PASSWORD</h1>
@@ -40,11 +40,10 @@ return <div className="pwsd-page">
   <Button type="submit" variant='filled' onclick={FilledButtonIsClicked}  >Submit</Button>
 
   <img src={vector1} alt=""  className="line1-img"/>
-  
 
 </form>
 </div>
-</div>
+
 
 
 

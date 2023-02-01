@@ -24,15 +24,15 @@ export const Login = () => {
   return <div className="login-page">
      <Header/>
 
-     <div className="log-form" >
-  <form action="" className="form"  >
+     
+  <form action="" className="log-form"  >
       <h1> SIGN IN</h1>
     
      <div className="inp1"><Textfield name="Names" type="text" variant="two" label="Email*" helperText="" />
     <Textfield onChange={onPasswordChange} name="number" type="password" variant="two" label="Password*" helperText="" /></div>
 
     
-    <h3>Click here if you <Link className="pswd-link" to="/password">forgot password?</Link></h3>
+    <h3>Click here if you <Link className="pswd-link" to="/Reset-password-page">forgot password?</Link></h3>
 
     <Button type="submit" variant='Outlined' onclick={OutlinedButtonIsClicked}  >Log in</Button>
     
@@ -41,7 +41,7 @@ export const Login = () => {
    <p>if you don't have an account <Link to="/Register" >Create an Account</Link> </p>  
   </form>
   </div>
-  </div>
+  
 
 
 

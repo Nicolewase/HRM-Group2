@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, #root, .reset-page{
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: center;
+}
+.reset-form{
+    position: relative;
+    top: 150px;
+    width: 350px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+}
+.reset-form h1 {
+    position: relative;
+    left: 3rem;
+    top: 1.5rem;
+    color: #3C2C9A;
+    font-size: 25px;
+    
+
+}
+.reset-form .text-field.two{
+    position: relative;
+    left: 3rem;
+    top: 5rem;
+    color: #3C2C9A;
+    /* font-size: 30px; */
+    border-bottom: 1px solid #3C2C9A;
+    
+}
+.reset-form .filled{
+    display: inline-block;
+    position: relative;
+    top: 8rem;
+    padding: 10px 30px;
+    left: 3rem;
+}
+ .reset-form .Outlined{
+    display: inline-block;
+    position: relative;
+    top: 8rem;
+    padding: 10px 30px;
+    left: 3rem;
+    color: #3C2C9A;
+    background-color: white;
+    border: 1px solid #3C2C9A ;
+
+}
+.Outlined:hover{
+    background-color: #3C2C9A;
+    color: white;
+}
