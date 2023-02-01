@@ -31,9 +31,13 @@ export default function EmployeeDashboard() {
                     <h2>#</h2>
                     <h2>Phonenumber</h2>
                     <h2>Gender</h2>
-                    <h2>User_id</h2>
+                    <h2>employmentStatus</h2>
+                    <h2>matialStatus</h2>
                     <h2>Startdate</h2>
                     <h2>Qualificationlevel</h2>
+                    <h2>dateOfBirth</h2>
+                    <h2>Country_id</h2>
+                    <h2>User_id</h2>
                     <h2>Dep_id</h2>
                     <h2>Actions</h2>
                 </div>

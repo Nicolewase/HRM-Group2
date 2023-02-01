@@ -5,6 +5,7 @@ type Props = {
     name: string,
     type?:"email"|"password"|"text"|"number"|"date",
     variant:"one"|"two"|"three",
+    value?:string,
     label:string,
     helperText?:string,
     errorText?:string,
@@ -14,6 +15,7 @@ export const Textfield =({
     name,
     type = "text",
     variant = "one", 
+    
     label,
     helperText,
     onChange,

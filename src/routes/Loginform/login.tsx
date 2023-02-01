@@ -1,4 +1,5 @@
-import { Form, Link } from "react-router-dom"
+import { Link } from "react-router-dom"
+import React, { useState, useEffect } from 'react'
 import Button from "../../components/button/button"
 import './login.css'
 import { Textfield } from "../../components/Inputs"
@@ -9,8 +10,36 @@ import { Header } from "../../components/header";
 
 export const Login = () => {
 
+
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+  const handleSubmit = async (event: React.FormEvent) => {
+    event.preventDefault();
+
+    const response = await fetch('http://ems-production-81f8.up.railway.app/api/loginuser', {
+      method: 'GET',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email, password }),
+    }).then(res => {
+      return res.json()
+    })
+    .then(data => console.log(data))
+    .catch(error => console.log("ERROR"))
+
+    // if (response.ok) {
+    //   const data = await response.json();
+    //   console.log('successfull')
+    //   Handle successful login
+    // } else {
+    //   Handle unsuccessful login
+    //   console.log('not successfull')
+    // }
+  };
+
+
   const OutlinedButtonIsClicked = () => {
-    console.log("outlined")
+    // console.log(data)
   }
   const loginAction = (evt: any) => {
     evt.preventDefault();
@@ -25,12 +54,14 @@ export const Login = () => {
      <Header/>
 
      
-  <form action="" className="log-form"  >
+  <form action="GET"  onSubmit={handleSubmit} className="log-form"  >
       <h1> SIGN IN</h1>
     
-     <div className="inp1"><Textfield name="Names" type="text" variant="two" label="Email*" helperText="" />
-    <Textfield onChange={onPasswordChange} name="number" type="password" variant="two" label="Password*" helperText="" /></div>
-
+     <div className="inp1"><Textfield name="Names" type="email" value={email}
+          onChange={(event) => setEmail(event.target.value)} variant="two" label="Email*" helperText="" />
+     
+    <Textfield onChange={(event) => setPassword(event.target.value)} name="number" type="password" value={password} variant="two" label="Password*" helperText="" /></div>
+   
     
     <h3>Click here if you <Link className="pswd-link" to="/Reset-password-page">forgot password?</Link></h3>
 

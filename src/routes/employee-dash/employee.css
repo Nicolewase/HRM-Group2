@@ -85,7 +85,7 @@ body,
 .emplo-form{
     position: relative;
     top: 50px;
-    width: 90%;
+    width: 100%;
     height: calc(100% - 200px);
     display: flex;
     flex-direction: column;
@@ -95,28 +95,28 @@ body,
     position: relative;
     display: flex;
     flex-direction: row;
-    left: 20px;
-    gap: 40px;
-    font-size: 0.8rem;
+    left: 10px;
+    gap: 14px;
+    font-size: 0.7rem;
     height: 40px;
-    width: 95%;
+    width: 98%;
     color: rgba(0, 0, 0, 0.5);
     background: rgba(217, 217, 217, 0.7);
 }
 .emplo-title h2{
     position: relative;
     top: 10px;
-    left: 30px;
+    left: 10px;
 }
 
 .enter-data1{
     position: relative;
     display: flex;
     flex-direction: row;
-    left: 20px;
-    font-size: 0.8rem;
+    left: 10px;
+    font-size: 0.7rem;
     height: 40px;
-    width: 95%;
+    width: 98%;
     color: rgba(0, 0, 0, 0.5);
     background: #F7F5F5;
 
@@ -126,8 +126,8 @@ body,
     position: relative;
     display: flex;
     font-size: 1rem;
-    gap: 40px;
-    left: 30px;
+    gap: 14px;
+    left: 10px;
     top: 10px;
 }
 .enter-data1 .first-span :hover{
@@ -153,6 +153,6 @@ body,
     display: flex;
     gap: 5px;
     top: 10px;
-    left: 27rem;   
+    left: 47.5rem;   
 
 }

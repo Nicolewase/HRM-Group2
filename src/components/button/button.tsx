@@ -3,7 +3,7 @@ import './button.css'
 type Props = {
   children: JSX.Element | JSX.Element[] | string,
   type: "submit" | "button",
-  variant: "elevated" | "filled"|"Tonal"|"Outlined"|"Text"
+  variant: "elevated" | "filled"|"Tonal"|"Outlined"|"Text",
   onclick?:()=>void
 
 }

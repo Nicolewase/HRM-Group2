@@ -33,7 +33,7 @@ html, body, #root, .verfication-page{
     justify-content: center;
 
 }
-.verfication-form span{
+.verfication-form .span-nbr{
     position: relative;
     top: 6rem;
     text-align: center;
