@@ -46,7 +46,7 @@ export const VerficationCode = () => {
     }
 
     return <div className="verfication-page">
-        <form action="" className="verfication-form">
+        <form action="/passwordform" className="verfication-form">
             <h1>Verfication</h1>
             <div className="spans">
                 <input type="text" className="span-nbr"/>

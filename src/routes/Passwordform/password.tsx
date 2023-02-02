@@ -10,6 +10,7 @@ import { Loading } from "../../components/loading/loading";
 
 
 export const Password = () => {
+  
 
   const [errorMessage, setErrorMessage] = useState("");
 
@@ -32,7 +33,7 @@ export const Password = () => {
       body: formData
     });
     if(resp.ok){
-      goto("/Dashboard-page");
+      goto("/login");
       return;
     }
     const responseData = await resp.json();
@@ -66,14 +67,16 @@ export const Password = () => {
 return <div className="pwsd-page">
   <Header/>
   
-<form action="https://ems-production-81f8.up.railway.app/api/resetpswd" className="pswd-form1" onSubmit={loginAction} >
+<form action="https://ems-production-81f8.up.railway.app/api/resetpswd" method="POST" className="pswd-form1"  onSubmit={handleSubmit} >
 
   <h1>RESET-PASSWORD</h1>
   <div className="inptall">
-  <Textfield name="Names" type="text" variant="two" label=" email" helperText=""/>
-  <Textfield onChange={onPasswordChange} name="number" type="password" variant="two" label="Password*" helperText="" /> 
-  <Textfield onChange={onPasswordChange} name="number" type="password" variant="two" label="Password_confirmation*" helperText=""/>
+  <Textfield name="email" type="text" variant="two" label=" email" helperText=""/>
+  <Textfield  name="Password" type="password" variant="two" label="Password*" helperText="" /> 
+  <Textfield  name="Password_confirmation" type="password" variant="two" label="Password_confirmation*" helperText=""/>
+  {/* <div className="error-message">{errorMessage}</div> */}
   </div>
+
 
   <Button type="submit" variant='filled' onclick={FilledButtonIsClicked}>
     {
