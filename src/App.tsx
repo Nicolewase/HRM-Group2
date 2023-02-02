@@ -9,13 +9,15 @@ import Home from './routes/home';
 import { Login } from './routes/Loginform/login';
 import { Password } from './routes/Passwordform/password';
 import Registration from './routes/register-page/register';
-import ProjectsReport from './routes/D-Project-page/Project';
 import AddEmployees from './routes/Add-employee-page/employee';
 import Dashboard from './routes/Dashboard-page';
 import DashCalendar from './components/calendar/calendar';
 import Messages from './components/Messages/Messages';
 import Schedule from './routes/Schedule-page/Schedule';
-import EmployeeDashboard from './components/employee-dash/employee';
+import EmployeeDashboard from './routes/employee-dash/employee';
+import ProjectsReport from './routes/D-project-page/Project';
+import Department from './routes/department-page/department';
+
 
 
 
@@ -72,7 +74,12 @@ const router = createBrowserRouter([
   {
     path:"/employee-dash",
     element:<EmployeeDashboard/>
+  },
+  {
+    path:"/department-page",
+    element:<Department/>
   }
+
 
 ]);
 
