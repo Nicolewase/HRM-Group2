@@ -9,17 +9,18 @@ type Props = {
     label:string,
     helperText?:string,
     errorText?:string,
-    onChange?: ChangeEventHandler<HTMLInputElement>
+    onChange?: ChangeEventHandler<HTMLInputElement>,
+    required?: boolean
 }
 export const Textfield =({
     name,
     type = "text",
     variant = "one", 
-    
     label,
     helperText,
     onChange,
-    errorText
+    errorText,
+    required = false
 }:Props) =>{
     const [inputValue, setInputValue] = useState("");
     const inputId= name;
@@ -27,7 +28,7 @@ export const Textfield =({
 
     return  <div className={`text-field ${variant} ${emptyInput}`} >
 
-              <input id={inputId} name={name} type={type} onChange={V=>{
+              <input required id={inputId} name={name} type={type} onChange={V=>{
                 setInputValue(V.target.value);
                 if(onChange){
                     
