@@ -57,7 +57,7 @@ const OutlinedButtonIsClicked=()=>{
             <h1>Reset Password</h1>
            
             <Textfield name="email" type="text" variant="two" label=" Email" helperText=""/>
-           {/* <div className="error-message">{errorMessage}</div> */}
+           <div className="error-message">{errorMessage}</div>
            
             <Button type="submit" variant='filled' onclick={filledButtonIsClicked}  >{
           !isLoading ? "Submit" :

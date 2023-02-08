@@ -27,7 +27,7 @@ export const VerficationCode = () => {
       body: formData
     });
     if(resp.ok){
-      goto("/passwordform");
+      goto("/password");
       return;
     }
     const responseData = await resp.json();
@@ -46,7 +46,7 @@ export const VerficationCode = () => {
     }
 
     return <div className="verfication-page">
-        <form action="/passwordform" className="verfication-form">
+        <form action="/password" className="verfication-form">
             <h1>Verfication</h1>
             <div className="spans">
                 <input type="text" className="span-nbr"/>
