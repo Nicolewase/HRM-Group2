@@ -16,7 +16,7 @@ import 'react-calendar/dist/Calendar.css';
       
         return (
           <div className='D-calendar'>
-            <Calendar onChange={onChange} value={value} />
+            
           </div>
         );
       }
@@ -24,7 +24,6 @@ import 'react-calendar/dist/Calendar.css';
 //     return <div>
 //       <Calendar onChange={onChange} value={date} />
 //     </div>
-// }
-
+// } Calendar onChange={onChange} value={value} />
 // render(<DashCalendar/>, document.querySelector('#root'))
 export default DashCalendar
